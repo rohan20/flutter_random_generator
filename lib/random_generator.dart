@@ -1,7 +1,17 @@
 library random_generator;
 
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
+import 'dart:math';
+
+class RandomGenerator {
+  int maxLimit;
+
+  RandomGenerator(this.maxLimit);
+
+  int generateRandomNumber() {
+    if (maxLimit < 1 || maxLimit == null)
+      throw Exception("Invalid argument for RandomGenerator");
+
+    Random random = Random();
+    return random.nextInt(maxLimit);
+  }
 }

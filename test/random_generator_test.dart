@@ -1,13 +1,13 @@
 import 'package:test/test.dart';
-
 import 'package:random_generator/random_generator.dart';
 
 void main() {
-  test('adds one to input values', () {
-    final calculator = new Calculator();
-    expect(calculator.addOne(2), 3);
-    expect(calculator.addOne(-7), -6);
-    expect(calculator.addOne(0), 1);
-    expect(() => calculator.addOne(null), throwsNoSuchMethodError);
+  test('generates a random number less than num', () {
+    var x = 100;
+
+    final randomGenerator = new RandomGenerator(x);
+    var result = randomGenerator.generateRandomNumber();
+
+    expect(result < x, true);
   });
 }

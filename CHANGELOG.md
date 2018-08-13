@@ -1,3 +1,4 @@
-## [0.0.1] - TODO: Add release date.
+## [0.0.1] - 13th August 2018.
 
-* TODO: Describe initial release.
+* Initial release
+* Ability to generate a random number

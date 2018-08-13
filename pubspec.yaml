@@ -1,10 +1,14 @@
 name: random_generator
-description: A new Flutter project.
+description: A dart package for generating a random number
 version: 0.0.1
-author:
-homepage:
+author: Rohan Taneja <rhntnj@gmail.com>
+homepage: https://github.com/rohan20/flutter_random_generator
+
+environment:
+  sdk: '>=2.0.0-dev.58.0 <3.0.0'
 
 dependencies:
+  test: ^0.12.37
   flutter:
     sdk: flutter
 

@@ -1,6 +1,6 @@
 # random_generator
 
-A new Flutter project.
+A dart package for generating a random number.
 
 ## Getting Started
 
